@@ -71,9 +71,9 @@ nav {
       right: 16em;
       top: 49%;
       width: 4em; }
-  .lp__banner--parent .container h3 {
+  .lp__banner--parent .container h2 {
     color: white;
-    margin: 8em 0 9em 1em;
+    margin: 5em 0 4.5em 1em;
     line-height: 160%; }
   .lp__banner--parent .container .desc__prod--active {
     border-bottom: 4px solid #F86A3A; }
@@ -90,5 +90,8 @@ nav {
       font-size: 2em; }
   .lp__banner--parent .container .col-md-3:last-child {
     margin-right: 0; }
+
+.lp__testimony--parent {
+  background: #F9FAFC; }
 
 /*# sourceMappingURL=style.css.map */
