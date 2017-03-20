@@ -124,14 +124,20 @@ nav {
     height: 422.6px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
-  .lp__testimony--parent .testimony__triangel--orange {
-    position: absolute;
-    right: 0em;
-    bottom: -44.5em;
-    border-bottom: 44.5em solid rgba(248, 106, 58, 0.92);
-    border-left: 17em solid transparent;
-    border-right: 0px solid transparent;
-    height: 0;
-    width: 25em; }
+
+.testimony__triangel--orange {
+  position: absolute;
+  right: 0;
+  bottom: -44em;
+  z-index: 10;
+  border-bottom: 44.5em solid rgba(231, 65, 8, 0.8);
+  border-left: 17em solid transparent;
+  border-right: 0px solid transparent;
+  height: 0;
+  width: 24.3em; }
+
+@-moz-document url-prefix() {
+  .testimony__triangel--orange {
+    bottom: -44.5em; } }
 
 /*# sourceMappingURL=style.css.map */
