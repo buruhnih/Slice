@@ -126,12 +126,12 @@ nav {
     filter: grayscale(100%); }
   .lp__testimony--parent .testimony__triangel--orange {
     position: absolute;
-    right: -4em;
-    bottom: -45em;
+    right: 0em;
+    bottom: -44.5em;
     border-bottom: 44.5em solid rgba(248, 106, 58, 0.92);
     border-left: 17em solid transparent;
-    border-right: 50px solid transparent;
+    border-right: 0px solid transparent;
     height: 0;
-    width: 29em; }
+    width: 25em; }
 
 /*# sourceMappingURL=style.css.map */
